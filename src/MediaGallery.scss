@@ -1,0 +1,34 @@
+
+.eb-gallery {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.eb-gallery-container {
+    height: 100%;
+}
+
+.eb-gallery-media {
+
+    img {
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.eb-gallery-controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.eb-gallery-ads {
+    height: 100%;
+}

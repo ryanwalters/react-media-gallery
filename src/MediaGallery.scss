@@ -4,6 +4,7 @@
     bottom: 0;
     color: #fff;
     display: flex;
+    font-family: inherit;
     left: 0;
     position: fixed;
     right: 0;
@@ -11,7 +12,18 @@
 }
 
 .eb-gallery-container {
+    background-color: #222;
     height: 100%;
+
+    .eb-gallery-description {
+        background-color: #333;
+        min-height: 200px;
+    }
+
+    .eb-gallery-slides {
+        background-color: #444;
+        min-height: 100px;
+    }
 }
 
 .eb-gallery-media {
@@ -27,6 +39,12 @@
     position: absolute;
     right: 0;
     top: 0;
+
+    .eb-gallery-close {
+        cursor: pointer;
+        font-size: 36px;
+        padding: 0.25em 0.5em;
+    }
 }
 
 .eb-gallery-ads {

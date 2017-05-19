@@ -1,7 +1,7 @@
 {
-  "name": "react-eb-gallery",
+  "name": "react-media-gallery",
   "version": "1.0.0",
-  "description": "react-eb-gallery React component",
+  "description": "react-media-gallery React component",
   "main": "lib/MediaGallery.js",
   "module": "es/MediaGallery.js",
   "files": [
@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "britannica-styleguide": "britannica/styleguide",
-    "nuka-carousel": "^2.0.4"
+    "nuka-carousel": "^2.0.4",
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": "15.x"
